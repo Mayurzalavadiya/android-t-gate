@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "825420121582",
+    "project_id": "t-gate",
+    "storage_bucket": "t-gate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825420121582:android:4fcf501286a175059cbaff",
+        "android_client_info": {
+          "package_name": "com.tgate.gate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825420121582-rlun04nh168633ovc8dc9tkj68e7b1g9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6QV3FQRZECHCe1yOk7Ly-HAoPV3LCy6Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825420121582-rlun04nh168633ovc8dc9tkj68e7b1g9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "825420121582-umv1d46s3smpp6q7bvln9kp48cf0de1c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tgate.gate"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

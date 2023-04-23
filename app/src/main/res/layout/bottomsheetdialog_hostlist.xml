@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="@dimen/_10sdp"
+    android:background="@drawable/bg_alertdialog">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:src="@drawable/icon_drawer" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:src="@drawable/icon_dialogclose_background" />
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img_close"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:src="@drawable/icon_dialog_close" />
+
+    <LinearLayout
+        android:id="@+id/rl_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/host_txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:layout_marginLeft="@dimen/_11sdp"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="center"
+            android:text="Host list"
+            android:textColor="#2E3137"
+            android:textSize="@dimen/_12ssp" />
+
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/host_searchview"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_below="@id/host_txt1"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:layout_marginVertical="@dimen/_15sdp"
+            android:background="@drawable/bg_searchview_border"
+            android:importantForAutofill="auto"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:visibility="visible"
+            app:iconifiedByDefault="false"
+            app:queryBackground="@color/white"
+            app:queryHint="Search for Check Out" />
+
+    </LinearLayout>
+    <!--        <androidx.appcompat.widget.AppCompatImageView-->
+    <!--            android:layout_width="@dimen/_15sdp"-->
+    <!--            android:layout_height="@dimen/_15sdp"-->
+    <!--            android:layout_alignParentRight="true"-->
+    <!--            android:layout_centerInParent="true"-->
+    <!--            android:layout_marginRight="@dimen/_5sdp"-->
+    <!--            android:src="@drawable/icon_filter_1"-->
+    <!--            android:tint="@color/white" />-->
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvhostlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/white"
+        android:layout_below="@id/rl_main"
+        android:background="#F3F3F3" />
+
+
+</RelativeLayout>

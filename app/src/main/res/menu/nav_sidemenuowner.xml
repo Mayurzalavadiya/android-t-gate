@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="none">
+
+    <item
+        android:id="@+id/my_account"
+        android:icon="@drawable/icon_mask_group"
+        android:iconTint="#9D9FA7"
+        android:title="My Account" />
+    <item
+        android:id="@+id/my_subscription"
+        android:icon="@drawable/icon_my_subscription"
+        android:title="My Subscription" />
+    <item
+        android:id="@+id/my_vititor"
+        android:icon="@drawable/icon_my_visitor"
+        android:title="My Vititor" />
+    <item
+        android:id="@+id/add_approved_visitor"
+        android:icon="@drawable/icon_approved_visitor"
+        android:title="Add Pre Approved Visitor" />
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/icon_setting"
+        android:title="Settings" />
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/icon_log_out"
+        android:title="Logout" />
+    </group>
+</menu>

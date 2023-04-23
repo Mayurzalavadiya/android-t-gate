@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="City">
+        <item>Ahmedabad</item>
+        <item>Junagadh</item>
+        <item>Bhavnagar</item>
+        <item>Rajkot</item>
+        <item>Surat</item>
+        <item>Gandhinagar</item>
+    </string-array>
+
+    <string-array name="visitorposs">
+        <item>Android Developer</item>
+        <item>Flutter Developer</item>
+        <item>Director Manager</item>
+        <item>Java Developer</item>
+        <item>Android Developer</item>
+        <item>Php Developer</item>
+        <item>Android Developer</item>
+        <item>Web Developer</item>
+        <item>Android Developer</item>
+        <item>Java Developer</item>
+    </string-array>
+    
+    <string-array name="visitorExperience">
+        <item>3 years of experience</item>
+        <item>3 years of experience</item>
+        <item>5 years of experience</item>
+        <item>16 years of experience</item>
+        <item>8 years of experience</item>
+        <item>2 years of experience</item>
+        <item>8 years of experience</item>
+        <item>5 years of experience</item>
+        <item>5 years of experience</item>
+        <item>3 years of experience</item>
+    </string-array>
+
+    <string-array name="Spinner">
+        <item>Tomorrow</item>
+        <item>Guard</item>
+        <item>Ownwr</item>
+        <item>Post</item>
+        <item>Image</item>
+        <item>Today</item>
+        <item>Last</item>
+    </string-array>
+
+
+    <string-array name="Time">
+        <item>12:00 AM</item>
+        <item>12:30 AM</item>
+        <item>01:00 AM</item>
+        <item>01:30 AM</item>
+        <item>02:00 AM</item>
+        <item>02:30 AM</item>
+        <item>03:00 AM</item>
+        <item>03:30 AM</item>
+        <item>04:00 AM</item>
+        <item>04:30 AM</item>
+        <item>05:00 AM</item>
+        <item>05:30 AM</item>
+        <item>06:00 AM</item>
+        <item>06:30 AM</item>
+        <item>07:00 AM</item>
+        <item>07:30 AM</item>
+        <item>08:00 AM</item>
+        <item>08:30 AM</item>
+        <item>09:00 AM</item>
+        <item>09:30 AM</item>
+        <item>10:00 AM</item>
+        <item>10:30 AM</item>
+        <item>11:00 AM</item>
+        <item>11:30 AM</item>
+        <item>12:00 PM</item>
+        <item>12:30 PM</item>
+        <item>01:00 PM</item>
+        <item>01:30 PM</item>
+        <item>02:00 PM</item>
+        <item>02:30 PM</item>
+        <item>03:00 PM</item>
+        <item>03:30 PM</item>
+        <item>04:00 PM</item>
+        <item>04:30 PM</item>
+        <item>05:00 PM</item>
+        <item>05:30 PM</item>
+        <item>06:00 PM</item>
+        <item>06:30 PM</item>
+        <item>07:00 PM</item>
+        <item>07:30 PM</item>
+        <item>08:00 PM</item>
+        <item>08:30 PM</item>
+        <item>09:00 PM</item>
+        <item>09:30 PM</item>
+        <item>10:00 PM</item>
+        <item>10:30 PM</item>
+        <item>11:00 PM</item>
+        <item>11:30 PM</item>
+    </string-array>
+</resources>

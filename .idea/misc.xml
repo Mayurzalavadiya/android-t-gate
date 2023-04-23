@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/android/T-Gate29-10-2021/ProjectCode/app/src/main/res/drawable/bg_searchview_border.xml" value="0.1895" />
+        <entry key="..\:/android/T-Gate29-10-2021/ProjectCode/app/src/main/res/layout/fragment_owner.xml" value="0.25" />
+        <entry key="..\:/android/T-Gate29-10-2021/ProjectCode/app/src/main/res/layout/fragment_past.xml" value="0.25" />
+        <entry key="..\:/android/T-Gate29-10-2021/ProjectCode/app/src/main/res/layout/fragment_past_owner.xml" value="0.25" />
+        <entry key="..\:/android/T-Gate29-10-2021/ProjectCode/app/src/main/res/layout/fragment_scheduled.xml" value="0.25" />
+        <entry key="..\:/android/T-Gate29-10-2021/ProjectCode/app/src/main/res/layout/fragment_scheduled_owner.xml" value="0.264" />
+        <entry key="..\:/android/T-Gate29-10-2021/ProjectCode/app/src/main/res/layout/fragment_today.xml" value="0.25" />
+        <entry key="..\:/android/T-Gate29-10-2021/ProjectCode/app/src/main/res/layout/fragment_today_owner.xml" value="0.25" />
+        <entry key="..\:/android/T-Gate29-10-2021/ProjectCode/app/src/main/res/layout/nav_headerguard.xml" value="0.25" />
+        <entry key="..\:/android/T-Gate29-10-2021/ProjectCode/app/src/main/res/layout/nav_headerowner.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

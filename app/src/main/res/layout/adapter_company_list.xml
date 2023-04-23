@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardMaxElevation="@dimen/_8sdp"
+    android:id="@+id/maincard"
+    android:layout_marginBottom="@dimen/_2sdp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+       <!-- <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/img_hostimg"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginVertical="@dimen/_12sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            app:shapeAppearance="@style/corner_round" />-->
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_companyname"
+            android:layout_width="match_parent"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:textColor="#2E3137"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="@dimen/_14ssp" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt3_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:textColor="#9EA1A5"
+            android:textSize="@dimen/_10ssp" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

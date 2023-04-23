@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "788207678832",
+    "project_id": "t-gate-45938",
+    "storage_bucket": "t-gate-45938.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788207678832:android:dac722990f910a18648bb5",
+        "android_client_info": {
+          "package_name": "com.tgate.gate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788207678832-cval06340k6srn7bopmevgdajdn9d3e2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7YIn4XzylPm60oq_kcL0AFfaU3z1e6xs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "788207678832-cval06340k6srn7bopmevgdajdn9d3e2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788207678832:android:f36496e40ce481c2648bb5",
+        "android_client_info": {
+          "package_name": "com.tgate.gate.util"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788207678832-cval06340k6srn7bopmevgdajdn9d3e2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7YIn4XzylPm60oq_kcL0AFfaU3z1e6xs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "788207678832-cval06340k6srn7bopmevgdajdn9d3e2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

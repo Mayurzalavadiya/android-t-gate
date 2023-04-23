@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    tools:context=".Activity.OwnerMainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@id/view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_140sdp"
+            android:background="@drawable/bg_navview" />
+        <RelativeLayout
+            android:id="@+id/rl_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/_10sdp">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                app:navigationIcon="@drawable/ic_menu"
+                app:title="">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txt_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/poppins_regular"
+                    android:gravity="center"
+                    android:text="Hello "
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/_12ssp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txt_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/poppins_regular"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/_12ssp" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/img_notification"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="end"
+                    android:src="@drawable/icon_notification" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/img_filter"
+                    android:layout_width="@dimen/_18sdp"
+                    android:layout_height="@dimen/_13sdp"
+                    android:layout_gravity="end"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:src="@drawable/icon_filter" />
+
+            </com.google.android.material.appbar.MaterialToolbar>
+        </RelativeLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rl_main"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Check Your"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_2"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Meeting Today!"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp" />
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_3"
+            android:layout_marginHorizontal="@dimen/_8ssp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@android:color/transparent"
+            app:tabBackground="@drawable/bg_tabbackground"
+            app:tabIndicator="@android:color/transparent"
+            app:tabIndicatorAnimationMode="linear"
+            app:tabIndicatorColor="@android:color/transparent"
+            app:tabIndicatorGravity="stretch"
+            app:tabSelectedTextColor="@color/blue"
+            app:tabTextAppearance="@style/tab_layout" />
+
+        <!--        <androidx.appcompat.widget.SearchView-->
+        <!--            android:id="@+id/searchview"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="@dimen/_30sdp"-->
+        <!--            android:layout_below="@+id/tab_layout"-->
+        <!--            android:layout_marginHorizontal="@dimen/_20ssp"-->
+        <!--            android:layout_marginTop="@dimen/_8sdp"-->
+        <!--            android:background="@drawable/bg_searchview_border"-->
+        <!--            android:importantForAutofill="auto"-->
+        <!--            android:outlineSpotShadowColor="#6E78F7"-->
+        <!--            android:paddingTop="@dimen/_5sdp"-->
+        <!--            android:paddingBottom="@dimen/_5sdp"-->
+        <!--            android:visibility="visible"-->
+        <!--            app:iconifiedByDefault="false"-->
+        <!--            app:queryHint="Search" />-->
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/tab_layout"
+            android:layout_marginTop="@dimen/_5sdp" />
+
+    </RelativeLayout>    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_headerowner"
+        app:menu="@menu/nav_sidemenuowner" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

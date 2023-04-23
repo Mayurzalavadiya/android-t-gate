@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.HostActivity">
+
+    <View
+        android:id="@+id/host_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:background="@drawable/bg_navview" />
+
+    <RelativeLayout
+        android:id="@+id/host_relativelayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_12sdp">
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/host_back"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:src="@drawable/icon_back_navdrawer" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/host_txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/_11sdp"
+            android:layout_toRightOf="@+id/host_back"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="center"
+            android:text="Host list"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/_12ssp" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img_notification"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/icon_notification" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/host_relativelayout1"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_20sdp">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchview"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:background="@drawable/bg_searchview"
+            android:elevation="@dimen/_5sdp"
+            android:importantForAutofill="auto"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:visibility="visible"
+            app:queryBackground="@color/white"
+            app:iconifiedByDefault="false"
+            app:queryHint="Search for Check Out" />
+
+<!--        <androidx.appcompat.widget.AppCompatImageView-->
+<!--            android:layout_width="@dimen/_15sdp"-->
+<!--            android:layout_height="@dimen/_15sdp"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:layout_marginRight="@dimen/_5sdp"-->
+<!--            android:src="@drawable/icon_filter_1"-->
+<!--            android:tint="@color/white" />-->
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvhostlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/host_view"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:background="#F3F3F3"
+        android:backgroundTint="@color/white" />
+
+
+
+</RelativeLayout>
